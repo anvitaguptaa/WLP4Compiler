@@ -31,6 +31,6 @@ The next step of the compiler is to determie if the code follows the context-sen
 The full set of semantic/type-inference rules can be found <a href="https://student.cs.uwaterloo.ca/~cs241/wlp4/typerules.pdf">here</a>, and the full set of context-sensitive rules can be found <a href="https://student.cs.uwaterloo.ca/~cs241/wlp4/WLP4.html">here</a>. To accomplish this, the compiler parses through the parse tree generated from the last step to ensure each rule is followed.
 <!-- A6 -->
 
-#### 4) Code Generation and Optimization
+#### 4) Code Generation
 The final part of the compilation process is code generation, and completing the process of translating WLP4 source code to MIPS assembly language. Basic features are supported including code generation for the main procedure, integer variables and constants, declarations, assignment, arithmetic, control flow, and printing, and additional support for pointers, other procedures, and dynamic memory allocation is also implemented. 
 <!-- A7/A8 -->
